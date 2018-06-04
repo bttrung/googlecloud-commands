@@ -1,0 +1,12 @@
+delete project:
+gcloud projects delete <projectname>
+
+create project
+gcloud projects create <projectname>
+
+work with project
+gcloud config set project [PROJECT_ID]
+
+set zone
+gcloud config set compute/zone asia-east1-d
+
